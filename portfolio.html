@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio di Zain Akram - Visualizza i miei progetti di web development e design">
+  <meta name="keywords" content="portfolio, progetti web, web design, development">
+  <meta name="author" content="Zain Akram">
+
+  <title>Portfolio - Zain Akram</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="portfolio.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%232563EB'>Z</text></svg>">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="container flex-between">
+      <div class="logo">Zain</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="competenze.html">Competenze</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="hero" style="min-height: 50vh; padding-top: var(--nav-height);">
+      <div class="hero-content">
+        <h1>Portfolio</h1>
+        <p class="subtitle">Scopri i miei progetti e lavori recenti</p>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="section">
+      <div class="container">
+        <!-- Filtri -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">Tutti</button>
+          <button class="filter-btn" data-filter="web">Sviluppo Web</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="responsive">Responsive</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- PROJECT 1 -->
+          <div class="project-card fade-in-up" data-category="design" data-project-id="project-1" id="project-1">
+            <div class="project-image">
+              <img src="img/scuola.jpg" alt="Fondazione Ikarus Grumello" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Fondazione Ikarus Grumello</h3>
+              <p class="project-desc">Progetto completo di analisi e progettazione di un sito web professionale per una fondazione. Studio approfondito delle esigenze degli utenti, creazione di wireframe e prototipazione ad alta fedeltà con focus su user experience e accessibilità WCAG.</p>
+              
+              <div class="project-tech">
+                <span class="tech-badge">UX Analysis</span>
+                <span class="tech-badge">Wireframe</span>
+                <span class="tech-badge">Prototipazione</span>
+                <span class="tech-badge">Design</span>
+                <span class="tech-badge">WCAG</span>
+              </div>
+
+              <div style="margin-top: var(--space-6); padding-top: var(--space-6); border-top: 1px solid var(--color-border);">
+                <h4 style="font-size: var(--text-sm); color: var(--color-gray-light); margin-bottom: var(--space-3);">Obiettivi Progetto:</h4>
+                <ul style="list-style: none; color: var(--color-gray-light); font-size: var(--text-sm);">
+                  <li>✓ Analisi dei requisiti approfondita</li>
+                  <li>✓ Creazione architettura informazioni</li>
+                  <li>✓ User research e personas</li>
+                  <li>✓ Design system coerente</li>
+                </ul>
+              </div>
+
+              <div class="project-links" style="margin-top: var(--space-6);">
+                <a href="#" onclick="return false;">Visualizza Caso Studio</a>
+                <a href="#" onclick="return false;">Scopri di più</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="project-card fade-in-up" data-category="web responsive" data-project-id="project-2" id="project-2">
+            <div class="project-image">
+              <img src="img/potfoglio.jpg" alt="Portfolio Personale" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Portfolio Personale</h3>
+              <p class="project-desc">Portfolio moderno e completamente responsive per la presentazione professionale online. Design minimalista con animazioni fluide, perfettamente ottimizzato per SEO e performance. Sviluppato con HTML5, CSS3 e JavaScript vanilla.</p>
+              
+              <div class="project-tech">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Responsive</span>
+                <span class="tech-badge">SEO</span>
+              </div>
+
+              <div style="margin-top: var(--space-6); padding-top: var(--space-6); border-top: 1px solid var(--color-border);">
+                <h4 style="font-size: var(--text-sm); color: var(--color-gray-light); margin-bottom: var(--space-3);">Tecnologie Utilizzate:</h4>
+                <ul style="list-style: none; color: var(--color-gray-light); font-size: var(--text-sm);">
+                  <li>✓ CSS Grid e Flexbox</li>
+                  <li>✓ CSS Custom Properties</li>
+                  <li>✓ Intersection Observer API</li>
+                  <li>✓ Mobile-First Approach</li>
+                </ul>
+              </div>
+
+              <div class="project-links" style="margin-top: var(--space-6);">
+                <a href="index.html">Vedi Live</a>
+                <a href="#" onclick="return false;">Codice</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="project-card fade-in-up" data-category="web responsive" data-project-id="project-3" id="project-3">
+            <div class="project-image">
+              <img src="img/ristorante.jpg" alt="Sito Web Ristorante" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Concept Sito Web Ristorante</h3>
+              <p class="project-desc">Sito web responsive e interattivo per attività di ristorazione. Include menù interattivo, galleria immagini, sistema di prenotazioni online e integrazione con i social media. Design moderno con attenzione all'esperienza utente mobile.</p>
+              
+              <div class="project-tech">
+                <span class="tech-badge">Responsive Design</span>
+                <span class="tech-badge">Interattivo</span>
+                <span class="tech-badge">Modern UI</span>
+                <span class="tech-badge">UX Focus</span>
+              </div>
+
+              <div style="margin-top: var(--space-6); padding-top: var(--space-6); border-top: 1px solid var(--color-border);">
+                <h4 style="font-size: var(--text-sm); color: var(--color-gray-light); margin-bottom: var(--space-3);">Caratteristiche Principali:</h4>
+                <ul style="list-style: none; color: var(--color-gray-light); font-size: var(--text-sm);">
+                  <li>✓ Menù digitale interattivo</li>
+                  <li>✓ Sistema prenotazioni online</li>
+                  <li>✓ Galleria immagini ottimizzata</li>
+                  <li>✓ Integrazione mappe e contatti</li>
+                </ul>
+              </div>
+
+              <div class="project-links" style="margin-top: var(--space-6);">
+                <a href="#" onclick="return false;">Visualizza Prototipo</a>
+                <a href="#" onclick="return false;">Scopri di più</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section" style="background: linear-gradient(135deg, var(--color-dark-navy) 0%, var(--color-dark-extreme) 100%); text-align: center;">
+      <div class="container">
+        <h2>Interessato a un progetto come questi?</h2>
+        <p style="color: var(--color-gray-light); font-size: var(--text-lg); margin-top: var(--space-8); max-width: 600px; margin-left: auto; margin-right: auto;">Contattami per discutere della tua idea. Sono pronto a trasformare la tua visione in realtà.</p>
+        <a href="contatti.html" class="btn btn-primary btn-lg mt-12">Inizia il tuo progetto</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Zain Akram</h3>
+          <p>Web Developer & Designer. Specializzato in Front-end Development e UX/UI Design.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: var(--space-3);">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="competenze.html">Competenze</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Seguimi</h3>
+          <div style="display: flex; gap: var(--space-3);">
+            <a href="#" style="color: var(--color-primary); font-size: var(--text-xl);">LinkedIn</a>
+            <a href="#" style="color: var(--color-primary); font-size: var(--text-xl);">GitHub</a>
+            <a href="#" style="color: var(--color-primary); font-size: var(--text-xl);">Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Zain Akram. Tutti i diritti riservati. | Design & Code by Zain Akram</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+  <script src="portfolio.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
