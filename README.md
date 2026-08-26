@@ -2,14 +2,14 @@
 
 Un portfolio web moderno, professionale e completamente responsive realizzato da Zain Akram, studente di Informatica e Web Developer.
 
-## 📋 Contenuto
+##  Contenuto
 
 - **Home**: Hero section accattivante, sezioni informative, showcase di servizi e anteprima progetti
 - **Portfolio**: Visualizzazione completa dei progetti con filtri, descrizioni dettagliate e tecnologie utilizzate
 - **Competenze**: Showcase delle competenze tecniche con progress bar animate, stack tecnologico, timeline di apprendimento
 - **Contatti**: Form di contatto professionale, informazioni di contatto, FAQ e social links
 
-## 🎨 Design & Stile
+##  Design & Stile
 
 ### Palette Colori
 - **Nero Profondo**: #0A0A0A (Background principale)
@@ -19,14 +19,14 @@ Un portfolio web moderno, professionale e completamente responsive realizzato da
 - **Grigio Chiaro**: #D1D5DB (Testo secondario)
 
 ### Caratteristiche Design
-- ✨ Design minimalista e moderno
-- 📱 100% responsive (mobile, tablet, desktop)
-- 🎯 Animazioni fluide e micro-interazioni
-- ♿ Accessibilità WCAG compliant
-- 🚀 Performance ottimizzate
-- 🎨 Design System coerente con CSS Variables
+-  Design minimalista e moderno
+-  100% responsive (mobile, tablet, desktop)
+-  Animazioni fluide e micro-interazioni
+-  Accessibilità WCAG compliant
+-  Performance ottimizzate
+-  Design System coerente con CSS Variables
 
-## 🏗️ Struttura del Progetto
+##  Struttura del Progetto
 
 ```
 portfolio-zain/
@@ -52,7 +52,7 @@ portfolio-zain/
 └── README.md                  # This file
 ```
 
-## 💻 Tecnologie Utilizzate
+## Tecnologie Utilizzate
 
 ### Frontend
 - **HTML5**: Semantic markup, SEO optimized
@@ -73,7 +73,7 @@ portfolio-zain/
 - FAQ Accordion
 - Scroll-to-Top Button
 
-## 🚀 Come Usare
+##  Come Usare
 
 ### Visualizzazione Locale
 1. Clona o scarica il progetto
@@ -87,7 +87,7 @@ Il portfolio è pronto per essere caricato su qualsiasi hosting web:
 - **Vercel**: Push su GitHub e collega a Vercel
 - **Tradizionale Hosting**: Carica i file via FTP/SFTP
 
-## 📄 Pagine Disponibili
+##  Pagine Disponibili
 
 ### Home (index.html)
 - Hero section con CTA
@@ -135,7 +135,7 @@ Il portfolio è pronto per essere caricato su qualsiasi hosting web:
   - Risposte dettagliate
   - Icone intuitive
 
-## ✨ Features Speciali
+##  Features Speciali
 
 ### Animazioni
 - Fade-in on scroll (Intersection Observer)
@@ -163,40 +163,40 @@ Il portfolio è pronto per essere caricato su qualsiasi hosting web:
 - Image lazy loading
 - Structured data ready
 
-## 🎯 Best Practices Implementate
+##  Best Practices Implementate
 
-✅ **Code Organization**
+ **Code Organization**
 - File separati per HTML, CSS, JavaScript
 - CSS variables per coerenza design
 - Commenti professionali nel codice
 
-✅ **Performance**
+**Performance**
 - Lazy loading images
 - CSS Grid/Flexbox per layout
 - Minimal JavaScript, vanilla ES6+
 - Optimized animations
 
-✅ **Responsive Design**
+ **Responsive Design**
 - Mobile-first approach
 - Media queries breakpoints
 - Touch-friendly buttons
 - Readable font sizes
 
-✅ **User Experience**
+ **User Experience**
 - Clear navigation
 - Fast loading
 - Smooth interactions
 - Accessible forms
 - Visual feedback
 
-## 📱 Browser Support
+##  Browser Support
 
 - Chrome/Edge (Latest 2 versions)
 - Firefox (Latest 2 versions)
 - Safari (Latest 2 versions)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🔧 Personalizzazione
+##  Personalizzazione
 
 ### Modifica Colori
 Modifica le variabili CSS in `style.css`:
@@ -228,15 +228,15 @@ Duplica la struttura di `.project-card` in `portfolio.html`:
 </div>
 ```
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
-- ⚡ Lightweight (< 100KB senza immagini)
-- 🚀 Fast loading time
-- 📱 Mobile optimized
-- 🎯 SEO friendly
-- ♿ WCAG AA compliant
+-  Lightweight (< 100KB senza immagini)
+-  Fast loading time
+-  Mobile optimized
+-  SEO friendly
+-  WCAG AA compliant
 
-## 📚 File da Modificare per Personalizzazione
+##  File da Modificare per Personalizzazione
 
 1. **index.html** - Home page content
 2. **portfolio.html** - Projects and descriptions
@@ -245,7 +245,7 @@ Duplica la struttura di `.project-card` in `portfolio.html`:
 5. **style.css** - Global colors and fonts
 6. **main.js** - Navigation and global behavior
 
-## 🔐 Note Importanti
+##  Note Importanti
 
 - Sostituisci l'email nel form (attualmente non invia realmente)
 - Aggiorna i link social (attualmente placeholder)
@@ -253,7 +253,7 @@ Duplica la struttura di `.project-card` in `portfolio.html`:
 - Personalizza tutti i testi con le tue informazioni
 - Test su mobile prima del deployment
 
-## 📞 Contatti
+##  Contatti
 
 **Zain Akram**
 - Email: zain.akram@email.com
@@ -261,13 +261,12 @@ Duplica la struttura di `.project-card` in `portfolio.html`:
 - Localizzazione: Milano, Lombardia, IT
 - Portfolio: [Questo sito]
 
-## 📜 Licenza
+##  Licenza
 
 Questo portfolio è stato creato come progetto professionale. Senti libero di personalizzarlo per il tuo uso personale.
 
 ---
 
-**Creato con ❤️ da Zain Akram**  
+**Creato con da Zain Akram**  
 *Web Developer & Designer | Studente di Informatica*
 
-Ultimo aggiornamento: 2024
